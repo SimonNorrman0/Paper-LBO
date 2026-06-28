@@ -1,22 +1,22 @@
-# Paper LBO — Hypothetical Firm
+# Paper LBO - Hypothetical Firm
 
-A self-built LBO model constructed using a fictional company and self-created assumptions, designed to learn and practice core leveraged buyout mechanics from scratch.
+A self-built LBO model constructed using a fictional company and self-created assumptions, purely to learn the core mechanics of an LBO.
 
 ## Purpose
 
-Built as a learning exercise to understand how an LBO works end-to-end — from entry valuation and capital structure through to exit returns. The focus was on getting the mechanics right rather than modelling a real deal.
+Built as a learning exercise to understand how an LBO works: from entry valuation and capital structure through to exit returns. The focus was on getting the mechanics right rather than modelling a real deal.
 
 ## What the model covers
 
-## Key outputs
+## What the model covers
 
-| Metric | Value |
-|---|---|
-| Entry multiple | 7.5x EV/EBITDA |
-| Exit multiple | 7.5x EV/EBITDA |
-| Hold period | 5 years |
-| MOIC | 2.36x |
-| IRR | 18.7% |
+- Entry valuation via LTM EBITDA × entry multiple, bridging to equity value through existing net debt
+- Sources & uses with leverage and equity contribution ratios across three tranches
+- Capital structure: revolving credit facility, Term Loan B (1% mandatory amortisation), and Senior Notes (bullet repayment)
+- Five-year projected P&L with declining revenue growth and flat margins throughout
+- Levered FCF build: net income + D&A − CapEx − ΔNWC
+- Debt repayment waterfall: minimum cash retention → mandatory TLB amortisation → revolver sweep → TLB optional paydown
+- MOIC and IRR at exit, with a sensitivity table across entry and exit multiples
 
 ## Assumptions
 
